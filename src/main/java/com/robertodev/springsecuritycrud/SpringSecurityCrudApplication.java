@@ -8,6 +8,8 @@ public class SpringSecurityCrudApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringSecurityCrudApplication.class, args);
+		//https://blog.couchbase.com/spring-security-oauth2_authentication/
+		//Realizando a Autenticação básica
 	}
 
 }
