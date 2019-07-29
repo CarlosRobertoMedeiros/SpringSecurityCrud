@@ -11,6 +11,7 @@ public class SpringSecuritycrudApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		  
 	}
 
 }

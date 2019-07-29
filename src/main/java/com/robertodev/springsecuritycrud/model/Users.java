@@ -7,6 +7,11 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 @Entity
 @Table(name = "tb_users")
 public class Users {
@@ -17,22 +22,6 @@ public class Users {
 
 	@NotNull
 	private String nome;
-
-	public final Long getCodigo() {
-		return codigo;
-	}
-
-	public final void setCodigo(Long codigo) {
-		this.codigo = codigo;
-	}
-
-	public final String getNome() {
-		return nome;
-	}
-
-	public final void setNome(String nome) {
-		this.nome = nome;
-	}
 
 	@Override
 	public int hashCode() {
